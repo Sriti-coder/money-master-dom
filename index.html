@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header> 
+        <i><h1 class="header">Money Master</h1></i>
+    </header>
+    <main>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="img">
+                        <img src="img/money.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="">
+                        <div class="income">
+                            <h2>Income</h2>
+                            <span>Inncome:</span>
+                            <input type="number" class="input" id="income-input-field" placeholder="Your income">
+                        </div>
+                        <div class="">
+                            <h2>Expense</h2>
+                            <span>Food:</span>
+                            <input type="number" class="input" id="food-input-field">
+                        </div>
+                        <div class="">
+                            <span>Rent:</span>
+                            <input type="number" class="input" id='rent-input-field'>
+                        </div>
+                        <div class="">
+                            <span>clothes:</span>
+                            <input type="number" class="input" id="clothes-input-field" placeholder="Your income">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn" id="calculation">Calculate</button>
+                        </div>
+                        <h4 >Total Expenses:<span id="total-expenses">0</span> </h4>
+                        <h4>balance: <span id="balance">0</span></h4>
+                        <div class="">
+                            <span>Save:</span>
+                            <input type="number" class="input" id="save-input-field">
+                            <span>%</span>
+                            <button id="btn-save">Save</button>
+                        </div>
+                        <h4>Saving Ammount: <span id="saving-amount">00</span></h4>
+                        <h4>Remaining Balance: <span id="remaining-amount">00</span></h4>
+                       </div>
+                </div>
+            </div>
+    
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

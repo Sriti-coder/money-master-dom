@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,600;1,700&display=swap');
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.body{
+	display: flex;
+}
+.btn {
+	background: #a9cce3;
+}
+.header{
+    text-align: center;
+}
+.img img{
+	margin-top: 4%;
+	margin-bottom: 4%;
+	width: 100%;
+}
+.input {
+	background: #cacfd2;
+	border: none;
+	height: 32px;
+	color: #000;
+	border-radius: 6px;
+	margin-left: 14px;
+	margin-bottom: 15px;
+	padding: 11px;
+}
+#rent-input-field {
+	margin-left: 45px;
+}
+#food-input-field {
+	margin-left: 38px;
+}
+#clothes-input-field {
+	margin-left: 29px;
+}
+#save-inut-field {
+	margin-left: 48px;
+}
+.calculate-btn {
+	text-align: center;
+}
